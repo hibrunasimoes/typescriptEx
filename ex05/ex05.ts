@@ -1,0 +1,19 @@
+
+class Animal{
+    nome:string;
+    raca:string;
+    corPelagem:string;
+    peso:number;
+  
+    constructor(nome:string, raca:string, pelagem:string, peso:number){
+        this.nome = nome;
+        this.raca = raca;
+        this.corPelagem = pelagem;
+        this.peso = peso
+    }
+  }
+  
+  const oliver = new Animal('Oliver', 'undefined', 'branco', 4);
+  
+  console.log
+  (oliver);
